@@ -29,9 +29,4 @@ Route::prefix('/user')->middleware('can:act-user')->group(function(){
 
 });
 
-Route::prefix('/teacher')->middleware('can:act-teacher')->group(function(){
-	
-	Route::get('/', 'UserController@index');
-	Route::get('/create', 'UserController@create');
 
-});
