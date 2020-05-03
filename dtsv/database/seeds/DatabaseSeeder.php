@@ -18,31 +18,43 @@ class DatabaseSeeder extends Seeder
         	[
         		'id'=>1,
         		'full_name' =>'Hai',
-        		'username' =>'admin1',
+        		//'username' =>'admin1',
         		'email'=> 'admin1@gmail.com',
-        		'password' => bcrypt('12345678')
+                'password' => bcrypt('12345678'),
+                'gender' => 'Nam',
+                'phone' => '0123456789',
+                'address' => 'Da Nang'
         	],
 			[
         		'id'=>2,
         		'full_name' =>'Huy',
-        		'username' =>'admin2',
+        		//'username' =>'admin2',
         		'email'=> 'admin2@gmail.com',
-        		'password' => bcrypt('12345678')
+                'password' => bcrypt('12345678'),
+                'gender' => 'Nam',
+                'phone' => '0123456789',
+                'address' => 'Da Nang'
         	],
 
             [
                 'id'=>3,
                 'full_name' =>'Hoang',
-                'username' =>'teacher',
+                //'username' =>'teacher',
                 'email'=> 'teacher@gmail.com',
-                'password' => bcrypt('12345678')
+                'password' => bcrypt('12345678'),
+                'gender' => 'Nam',
+                'phone' => '0123456789',
+                'address' => 'Da Nang'
             ],
             [
                 'id'=>4,
                 'full_name' =>'Trung',
-                'username' =>'trung',
+                //'username' =>'trung',
                 'email'=> 'trung@gmail.com',
-                'password' => bcrypt('12345678')
+                'password' => bcrypt('12345678'),
+                'gender' => 'Nam',
+                'phone' => '0123456789',
+                'address' => 'Da Nang'
             ]
         ];
 
